@@ -15,7 +15,9 @@ class Dice:
         self.allDice = ("Reroll", "Reroll", "Attack", "Attack", "Shield", "Skull")
         
 
-
+    def dice_roll_results():
+        roll_value = random.choice(self.allDice)
+        
 
 
 
